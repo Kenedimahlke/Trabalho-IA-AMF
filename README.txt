@@ -23,4 +23,4 @@ Intruções para rodar o modelo localmente:
 4. Em um terminal, rode o seguinte código para instalação do Open WebUI: 
 docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 5. Rode o Docker e Inicie o Container Open WebUI, após acesse o navegador do sistema e vá até localhost:3000
-6. Após carregar a interface, procure por espaço de trabalho, depois vá em importar modelos. Selecione o Modelo baixado (BO.IA).
+6. Após carregar a interface, procure por espaço de trabalho, depois vá em importar modelos. Selecione o Modelo baixado boia-health-recipes-1728085276447.json
